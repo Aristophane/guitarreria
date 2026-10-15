@@ -22,3 +22,7 @@ python scripts/build_site.py
 `source` conserve les documents originaux, les styles et les données des luthiers.
 `site-config.json` définit l'adresse utilisée par les URL canoniques et le sitemap.
 Le site fonctionne sans serveur applicatif ni connexion à ChatGPT Sites.
+
+La favicon de guitare classique est conservée dans `source/branding`, aux formats
+SVG, PNG et ICO. Pour régénérer ces fichiers, installer Pillow puis exécuter
+`python scripts/build_favicon.py` avant de reconstruire le site.

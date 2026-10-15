@@ -340,6 +340,8 @@ def main():
  global ASSETS,PAGE_MAP,CURRENT_TITLE,MEDIA_STATUS,INSTRUMENTS
  NAVIGATION_EDITS.clear()
  DIST.mkdir(parents=True,exist_ok=True)
+ if (ROOT/'tools/branding').exists():shutil.copytree(ROOT/'tools/branding',SITE/'source/branding',dirs_exist_ok=True)
+ for icon in ('favicon.svg','favicon.ico','favicon-32.png'):shutil.copy2(SITE/'source/branding'/icon,DIST/icon)
  if (SITE/'.openai/hosting.json').exists():
   manifest=json.loads((SITE/'.openai/hosting.json').read_text(encoding='utf-8'))
   manifest['static']={'directory':'dist'}
@@ -451,7 +453,7 @@ def main():
    layout=controls+toc_html+'<div class="rich-text '+('catalog-content' if kind=='catalog' else 'editorial-content')+'" data-original-content="'+esc(name)+'">'+rich+'</div>'
    if name=='fr_philo.html':layout=philosophy_layout(rich)
    if name in ('fr_others.html','fr_others_archives.html'):
-    shortcuts='<nav class="others-nav" aria-label="Rubriques"><a href="#in">Atelier</a><a href="#cours">Cours</a><a href="fr_boutique.html">Boutique</a><a href="#ag">Agenda</a><a href="#ar">Archives</a></nav>' if name=='fr_others.html' else '<p class="back-link"><a href="fr_others.html#ar">Autres +</a></p>'
+    shortcuts='<nav class="others-nav" aria-label="Rubriques"><a href="#in">Atelier</a><a href="#cours">Cours</a><a href="#ag">Agenda</a><a href="#ar">Archives</a></nav>' if name=='fr_others.html' else '<p class="back-link"><a href="fr_others.html#ar">Autres +</a></p>'
     layout=others_layout(rich,name)
     if name=='fr_others.html':layout,shop_accessories=move_accessories(layout)
     layout=shortcuts+layout
@@ -507,6 +509,12 @@ def main():
  (DIST/'fr_boutique.html').write_text(re.sub(r'(?m)[ \t]+$', '',shop),encoding='utf-8')
  # A real missing-page response document, without a fabricated instrument description.
  (DIST/'404.html').write_text('<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Page indisponible — Guitarreria.eu</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="pages.css"><body>'+header('Guitares')+'<main id="contenu" class="page-main wrap"><div class="page-title"><h1>Page indisponible</h1><p>Cette page n’est pas accessible dans le site d’origine.</p><a class="text-link" href="fr_guitars.html">Les Guitares '+PLUS+'</a></div></main>'+footer()+'</body></html>',encoding='utf-8')
+ # All routes, including the approved homepage and the 404 document, share the icon.
+ icon_version=hashlib.sha256((DIST/'favicon.svg').read_bytes()).hexdigest()[:12]
+ icon_links='<link rel="icon" href="favicon.ico?v='+icon_version+'" sizes="16x16 32x32 48x48"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v='+icon_version+'"><link rel="icon" type="image/svg+xml" href="favicon.svg?v='+icon_version+'">'
+ for page_path in DIST.glob('*.html'):
+  markup=page_path.read_text(encoding='utf-8')
+  page_path.write_text(markup.replace('</title>','</title>'+icon_links,1),encoding='utf-8')
  (DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+esc(origin+'/'+r)+'</loc></url>' for r in PAGE_MAP.values())+'</urlset>',encoding='utf-8')
  (DIST/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+origin+'/sitemap.xml\n',encoding='utf-8')
  (SITE/'migration-report.json').write_text(json.dumps({'pages':len(report),'guitar_pages':sum(r['kind']=='guitar' for r in report),'luthier_pages':len(profiles),'catalog_entries':len(catalog_records),'source_404':data['errors'],'unavailable_assets':[a for a in ASSETS.values() if not a.get('ok')],'legacy_audio':list(MEDIA_STATUS.values()),'coverage':report},ensure_ascii=False,indent=2),encoding='utf-8')
@@ -516,6 +524,7 @@ def main():
   w=csv.writer(f,delimiter=';');w.writerow(['URL source','Chemin cible']);w.writerows(PAGE_MAP.items())
  (SITE/'scripts').mkdir(exist_ok=True)
  if SCRIPT!=(SITE/'scripts/build_site.py'):shutil.copy2(SCRIPT,SITE/'scripts/build_site.py')
+ if (SCRIPT.parent/'build_favicon.py')!=(SITE/'scripts/build_favicon.py'):shutil.copy2(SCRIPT.parent/'build_favicon.py',SITE/'scripts/build_favicon.py')
  if (SCRIPT.parent/'editorial_layout.py')!=(SITE/'scripts/editorial_layout.py'):shutil.copy2(SCRIPT.parent/'editorial_layout.py',SITE/'scripts/editorial_layout.py')
  if (SCRIPT.parent/'others_layout.py')!=(SITE/'scripts/others_layout.py'):shutil.copy2(SCRIPT.parent/'others_layout.py',SITE/'scripts/others_layout.py')
  if (SCRIPT.parent/'contact_layout.py')!=(SITE/'scripts/contact_layout.py'):shutil.copy2(SCRIPT.parent/'contact_layout.py',SITE/'scripts/contact_layout.py')

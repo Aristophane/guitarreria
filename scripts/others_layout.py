@@ -70,7 +70,6 @@ def others_layout(rich,route):
   for identifier in ids-kept-{None}:etree.SubElement(parts[0],'span',{'id':identifier})
   for part in parts:
    part.tail='\n';current.append(part)
- # Keep the original small book presentations here, with a direct route to the new shop.
  for paragraph in result.xpath('.//section[contains(@class,"others-workshop")]/p'):
   value=normalized(''.join(paragraph.itertext()))
   if 'atelier de lutherie' in value:paragraph.set('class','service-name')
@@ -78,15 +77,13 @@ def others_layout(rich,route):
   elif 'sur devis' in value:paragraph.set('class','service-terms')
  for paragraph in result.xpath('.//section[contains(@class,"others-lessons")]/p'):
   if 'cours guitare ' in normalized(''.join(paragraph.itertext())):paragraph.set('class','lesson-type')
- books=result.xpath('./section[contains(@class,"others-books")]')
- if books:
-  action=etree.Element('p',{'class':'shop-bridge','data-ui-copy':'true'})
-  link=etree.SubElement(action,'a',{'href':'fr_boutique.html','class':'text-link'});link.text='Voir la Boutique +'
-  books[0].insert(1,action)
  # Validate complete original wording, including the prose in closed archive panels.
  check=copy.deepcopy(result)
  for item in check.xpath('.//*[@data-ui-copy]'):item.getparent().remove(item)
  assert normalized(''.join(check.itertext()))==original,'Autres wording or order changed'
+ # The books are presented in Boutique; the owner requested removing their teaser here.
+ for section in result.xpath('./section[contains(concat(" ",normalize-space(@class)," ")," others-books ")]'):
+  result.remove(section)
  return etree.tostring(result,encoding='unicode',method='html')
 
 def move_accessories(markup):
