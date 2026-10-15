@@ -114,7 +114,7 @@ def photo_record(url,base):
 def image_html(node,base,gallery=False,index=0):
  url,a=photo_record(node.get('src',''),base)
  name=up.unquote(up.urlsplit(url).path).rsplit('/',1)[-1]
- if name in DECOR:return ''
+ if name in DECOR or (route(base)=='fr_luthiers.html' and name in {'guitarreria_az2g.jpg','guitarreria_az2.jpg','guitarreria_az2d.jpg'}):return ''
  label=node.get('alt') or node.get('title') or 'Photographie — '+CURRENT_TITLE
  if name=='audio1_red.gif':return '<span class="audio-link">'+esc(node.get('title') or node.get('alt') or 'Audio')+' '+PLUS+'</span>'
  if not a or not a.get('ok'):
@@ -320,16 +320,15 @@ def geography_directory(profiles):
  shutil.copy2(SITE/'source/map.js',DIST/'map.js');shutil.copy2(source,DIST/'geography.json')
  countries=sorted({place['country'] for p in data for place in p.get('locations',[p]) if place.get('country')})
  controls='<div class="geography-countries" role="group" aria-label="Pays des ateliers"><button type="button" data-country="" aria-pressed="true">Tous les pays</button>'+''.join('<button type="button" data-country="'+esc(c)+'" aria-pressed="false">'+esc(c)+'</button>' for c in countries)+'</div>'
- map_html='<section class="geography" aria-labelledby="geography-heading"><div class="geography-heading"><div><p class="eyebrow">Géographie</p><h2 id="geography-heading">Les ateliers dans le monde</h2></div><button type="button" data-world>Vue mondiale '+PLUS+'</button></div>'+controls+'<div class="map-frame"><div id="makers-map" aria-label="Carte des villes d’atelier des luthiers" tabindex="0"></div><p class="map-loading" role="status">Chargement de la carte…</p></div><div class="map-caption"><p>Repères à l’échelle des villes. Le nombre indique les luthiers regroupés.</p><p><span class="map-key"></span>Atelier documenté <span class="map-key historical"></span>Atelier historique</p></div><p id="map-selection" class="map-selection" tabindex="-1">Monde</p><noscript><p>Activez JavaScript pour explorer la carte. Les localisations et leurs sources sont disponibles dans la liste.</p></noscript></section><div class="directory-heading"><h2 id="directory-heading">Tous les luthiers</h2><p id="geography-status" role="status" aria-live="polite">'+str(len(data))+' luthiers</p><button type="button" data-show-all>Afficher tous</button></div>'
+ map_html='<section class="geography" aria-labelledby="geography-heading"><div class="geography-heading"><div><p class="eyebrow">Géographie</p><h2 id="geography-heading">Les ateliers dans le monde</h2></div><button type="button" data-world>Vue mondiale '+PLUS+'</button></div>'+controls+'<div class="map-frame"><div id="makers-map" aria-label="Carte des villes d’atelier des luthiers" tabindex="0"></div><p class="map-loading" role="status">Chargement de la carte…</p></div><div class="map-caption"><p>Repères à l’échelle des villes. Le nombre indique les luthiers regroupés.</p><p><span class="map-key"></span>Atelier documenté <span class="map-key historical"></span>Atelier historique</p></div><p id="map-selection" class="map-selection" tabindex="-1">Monde</p><noscript><p>Activez JavaScript pour explorer la carte. Les villes des ateliers restent indiquées dans la liste.</p></noscript></section><div class="directory-heading"><h2 id="directory-heading">Tous les luthiers</h2><p id="geography-status" role="status" aria-live="polite">'+str(len(data))+' luthiers</p><button type="button" data-show-all>Afficher tous</button></div>'
  entries=[]
  map_html=map_html.replace('Atelier historique</p>','Atelier historique <span class="map-key uncertain"></span>À confirmer</p>')
  for p in sorted(profiles,key=lambda p:p['name'].casefold()):
   geo=by_route[p['route']];places=geo.get('locations',[geo]);location=' · '.join(esc(str(place.get('city') or 'Localisation non établie'))+(' — '+esc(place['country']) if place.get('country') else '') for place in places)
   labels={'historical':'Atelier historique','uncertain':'Localisation à confirmer','unknown':'Localisation non établie'}
   annotation='<span class="location-status">'+esc(labels[geo['status']])+'</span>' if geo['status'] in labels else ''
-  sources=''.join('<li><a href="'+esc(s['url'])+'" target="_blank" rel="noopener noreferrer">'+esc(s['title'])+'</a><p>'+esc(s['evidence'])+'</p></li>' for s in geo['sources'])
   locate='<button type="button" class="locate-maker" data-locate="'+p['route']+'">Voir sur la carte '+PLUS+'</button>' if geo.get('lat') is not None else ''
-  entries.append('<article class="maker-entry" data-directory-entry data-route="'+p['route']+'"><a href="'+p['route']+'"><h3>'+esc(p['name'])+'</h3>'+PLUS+'</a><p class="maker-location">'+location+'</p>'+annotation+locate+'<details class="geography-sources"><summary>Localisation et sources</summary><p>'+esc(geo['note'])+'</p><ul>'+sources+'</ul></details></article>')
+  entries.append('<article class="maker-entry" data-directory-entry data-route="'+p['route']+'"><a href="'+p['route']+'"><h3>'+esc(p['name'])+'</h3>'+PLUS+'</a><p class="maker-location">'+location+'</p>'+annotation+locate+'</article>')
  return map_html+'<section class="maker-directory" aria-label="Annuaire des luthiers">'+''.join(entries)+'</section>'
 
 def page_shell(page,body,title,section,origin):
@@ -494,6 +493,7 @@ def main():
  p=DIST/'fr_luthiers.html';markup=p.read_text(encoding='utf-8');markup=markup.replace('<div class="rich-text editorial-content"',directory+'<div class="rich-text editorial-content"',1);markup=markup.replace('</head>','<link rel="stylesheet" href="assets/map/leaflet/leaflet.css"><script src="assets/map/leaflet/leaflet.js" defer></script><script src="map.js" defer></script></head>');p.write_text(markup,encoding='utf-8')
  for asset in ('pages.css','map.js'):
   markup=markup.replace('"'+asset+'"','"'+asset+'?v='+hashlib.sha256((DIST/asset).read_bytes()).hexdigest()[:12]+'"')
+ markup=re.sub(r'(?m)^[ \t]+$', '',markup)
  p.write_text(markup,encoding='utf-8')
  # Dedicated shop, using the two original book records and original ordering routes.
  shop_info={'url':BASE+'fr_boutique.html','title':'Boutique','meta':{'description':'Livres — Guitarreria.eu'}}
