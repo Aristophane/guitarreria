@@ -55,12 +55,15 @@
 .back-link{font-size:12px;color:var(--accent);margin-bottom:25px}
 
 /* Two original books, with their published price and ordering information. */
+.shop-section>h2{font:400 42px/1.15 var(--display);margin:0 0 24px;color:var(--ink)}
+.shop-section h2,.shop-accessories h2{scroll-margin-top:28px}
+.shop-accessories{border-top:1px solid var(--line);padding-top:34px;margin-top:65px;min-width:0}
 .shop-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:60px;margin-top:20px}
 .shop-book{min-width:0}
 .book-cover{display:flex;align-items:center;justify-content:center;min-height:345px;padding:30px;background:#22241f;border:1px solid var(--line);margin-bottom:25px}
 .book-cover img{object-fit:contain;width:auto;max-width:100%;height:auto;max-height:300px}
-.book-overview h2{font:400 clamp(31px,3vw,41px)/1.1 var(--display);margin-bottom:18px;max-width:570px}
-.book-overview h2 a:hover{color:var(--accent)}
+.book-overview h3{font:400 clamp(31px,3vw,41px)/1.1 var(--display);margin-bottom:18px;max-width:570px}
+.book-overview h3 a:hover{color:var(--accent)}
 .book-status{font:400 11px/1.7 var(--body);color:var(--accent);margin:0 0 13px}
 .book-description{font:400 14px/1.8 var(--body);color:var(--muted);margin-bottom:20px}
 .book-price{font:400 22px/1.4 var(--display);color:var(--ink);padding-top:18px;margin:0 0 24px;border-top:1px solid var(--line)}
@@ -79,4 +82,4 @@
 .book-prose .source-row>.source-cell{padding:0}
 .book-detail-copy>.text-link{font-size:12px;line-height:1.7;margin-top:25px;display:flex;gap:15px;align-items:center}
 @media(max-width:1000px){.shop-books{gap:38px}.book-detail-layout{gap:35px}.book-cover{min-height:310px;padding:22px}.book-cover img{max-height:260px}.others-book-grid,.accessory-grid{gap:30px}}
-@media(max-width:760px){.others-nav{gap:12px 22px;font-size:11px;padding-block:15px}.others-content h2{font-size:36px}.others-content h3{font-size:28px}.others-intro>p:first-child{font-size:27px}.others-section{margin-top:34px;padding-top:28px}.others-book-grid,.accessory-grid,.shop-books,.book-detail-layout{grid-template-columns:1fr;gap:38px}.shop-books{gap:48px}.book-cover{min-height:300px;padding:25px}.book-cover img{max-height:280px}.book-overview h2{font-size:35px}.book-detail-gallery .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.book-detail-gallery .gallery-photo:first-child{grid-column:1/-1}.book-detail-gallery .gallery-photo{padding:15px}.book-detail-gallery .gallery-photo img{max-height:290px}.others-content .archive-title{font-size:24px}.archive-event>summary{padding-block:22px}.archive-copy p{font-size:15px}.others-content .editorial-photos{gap:12px}.others-content .editorial-photos .inline-photo{max-width:100%}.others-workshop .editorial-photos{padding:15px}.book-detail-copy .book-price{font-size:26px}}
+@media(max-width:760px){.others-nav{gap:12px 22px;font-size:11px;padding-block:15px}.others-content h2{font-size:36px}.others-content h3{font-size:28px}.others-intro>p:first-child{font-size:27px}.others-section{margin-top:34px;padding-top:28px}.others-book-grid,.accessory-grid,.shop-books,.book-detail-layout{grid-template-columns:1fr;gap:38px}.shop-books{gap:48px}.book-cover{min-height:300px;padding:25px}.book-cover img{max-height:280px}.book-overview h3{font-size:35px}.book-detail-gallery .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.book-detail-gallery .gallery-photo:first-child{grid-column:1/-1}.book-detail-gallery .gallery-photo{padding:15px}.book-detail-gallery .gallery-photo img{max-height:290px}.others-content .archive-title{font-size:24px}.archive-event>summary{padding-block:22px}.archive-copy p{font-size:15px}.others-content .editorial-photos{gap:12px}.others-content .editorial-photos .inline-photo{max-width:100%}.others-workshop .editorial-photos{padding:15px}.book-detail-copy .book-price{font-size:26px}}

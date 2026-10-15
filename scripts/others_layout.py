@@ -44,7 +44,8 @@ def others_layout(rich,route):
     new_section('accessories')
     title=etree.SubElement(section,'h2',{'data-ui-copy':'true','id':'accessoires'});title.text='Accessoires'
     accessory_grid=etree.SubElement(section,'div',{'class':'accessory-grid'})
-   elif 'anipo' in ids:new_section('anipo')
+   elif 'anipo' in ids or 'Guitarreria.eu est partenaire ANIPO' in value:
+    new_section('anipo');section.set('id','anipo')
    elif 'ag' in ids:new_section('agenda');block.tag='h2'
    elif 'ar' in ids:new_section('archive');block.tag='h2'
   if mode=='books' and block.tag=='h2' and 'bo' not in ids:
@@ -88,10 +89,19 @@ def others_layout(rich,route):
  assert normalized(''.join(check.itertext()))==original,'Autres wording or order changed'
  return etree.tostring(result,encoding='unicode',method='html')
 
-def shop_page(books,image):
+def move_accessories(markup):
+ tree=html.fromstring(markup)
+ section=tree.xpath('./section[contains(concat(" ",normalize-space(@class)," ")," others-accessories ")]')[0]
+ section.getparent().remove(section)
+ section.set('class','shop-accessories others-content rich-text')
+ section.set('data-original-content','fr_others.html')
+ return etree.tostring(tree,encoding='unicode',method='html'),etree.tostring(section,encoding='unicode',method='html')
+
+def shop_page(books,image,accessories=''):
  cards=[]
  for book in books:
   cover=image(book['cover_url'],book['title_exact'])
   status='<p class="book-status">temporairement épuisé · en attente de réédition</p>' if book.get('availability_exact') else '<p class="book-status">'+stdhtml.escape(book['list_language_exact'])+'</p>'
-  cards.append('<article class="shop-book"><a class="book-cover" href="'+book['route']+'" aria-label="'+stdhtml.escape(book['title_exact'],quote=True)+'">'+cover+'</a><div class="book-overview">'+status+'<h2><a href="'+book['route']+'">'+stdhtml.escape(book['title_exact'])+'</a></h2><p class="book-description">'+stdhtml.escape(book['list_description_exact'])+'</p><p class="book-price">'+stdhtml.escape(book['list_price_exact'])+'</p><a class="text-link" href="'+book['route']+'">Voir le livre <span aria-hidden="true">+</span></a></div></article>')
- return '<section class="shop-books" aria-label="Livres">'+''.join(cards)+'</section>'
+  cards.append('<article class="shop-book"><a class="book-cover" href="'+book['route']+'" aria-label="'+stdhtml.escape(book['title_exact'],quote=True)+'">'+cover+'</a><div class="book-overview">'+status+'<h3><a href="'+book['route']+'">'+stdhtml.escape(book['title_exact'])+'</a></h3><p class="book-description">'+stdhtml.escape(book['list_description_exact'])+'</p><p class="book-price">'+stdhtml.escape(book['list_price_exact'])+'</p><a class="text-link" href="'+book['route']+'">Voir le livre <span aria-hidden="true">+</span></a></div></article>')
+ navigation='<nav class="others-nav shop-nav" aria-label="Rubriques de la Boutique"><a href="#livres">Livres</a><a href="#accessoires">Accessoires</a></nav>'
+ return navigation+'<section class="shop-section" aria-labelledby="livres"><h2 id="livres">Livres</h2><div class="shop-books">'+''.join(cards)+'</div></section>'+accessories

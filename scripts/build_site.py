@@ -4,7 +4,7 @@ import argparse,copy,csv,hashlib,html as stdhtml,json,re,shutil,urllib.parse as 
 from pathlib import Path
 from lxml import html,etree
 from editorial_layout import philosophy_layout
-from others_layout import others_layout,reflow,shop_page
+from others_layout import others_layout,reflow,shop_page,move_accessories
 from contact_layout import contact_layout
 from presentation_cleanup import catalogue_details,clean_presentation
 from navigation_copy import NAVIGATION_EDITS
@@ -75,7 +75,7 @@ def lang_for(url):
  return next((l for l in LANGS if n.startswith(l+'_') or '_'+l+'_' in n),'fr')
 def section_for(url):
  n=route(url)
- if n in ('fr_boutique.html','vt_g_granada.html','vt_courtnall.html'):return 'Boutique'
+ if n in ('fr_boutique.html','vt_g_granada.html','vt_courtnall.html','vt_440wood.html','vt_fustero.html'):return 'Boutique'
  if n.startswith('g_') or n.startswith('fr_guitars') or n=='a_recordings.html':return 'Guitares'
  if n.startswith('l_') or n=='fr_luthiers.html':return 'Luthiers'
  if n=='fr_philo.html' or n=='fr_rights.html':return 'Philosophie'
@@ -389,7 +389,7 @@ def main():
  books=json.loads((SITE/'source/book-shop.json').read_text(encoding='utf-8'))['books'];book_map={book['route']:book for book in books}
  PAGE_MAP={p['url']:route(p['url']) for p in data['pages']}
  by_url={p['url']:p for p in data['pages']}
- catalog_records=[];profiles=[];report=[];links_in_main=[]
+ catalog_records=[];profiles=[];report=[];links_in_main=[];shop_accessories=''
  z=zipfile.ZipFile(SITE/'source/original-html.zip')
  INSTRUMENTS=instrument_index(data['pages'],z)
  for page in data['pages']:
@@ -451,8 +451,10 @@ def main():
    layout=controls+toc_html+'<div class="rich-text '+('catalog-content' if kind=='catalog' else 'editorial-content')+'" data-original-content="'+esc(name)+'">'+rich+'</div>'
    if name=='fr_philo.html':layout=philosophy_layout(rich)
    if name in ('fr_others.html','fr_others_archives.html'):
-    shortcuts='<nav class="others-nav" aria-label="Rubriques"><a href="#in">Atelier</a><a href="#cours">Cours</a><a href="fr_boutique.html">Boutique</a><a href="#accessoires">Accessoires</a><a href="#ag">Agenda</a><a href="#ar">Archives</a></nav>' if name=='fr_others.html' else '<p class="back-link"><a href="fr_others.html#ar">Autres +</a></p>'
-    layout=shortcuts+others_layout(rich,name)
+    shortcuts='<nav class="others-nav" aria-label="Rubriques"><a href="#in">Atelier</a><a href="#cours">Cours</a><a href="fr_boutique.html">Boutique</a><a href="#ag">Agenda</a><a href="#ar">Archives</a></nav>' if name=='fr_others.html' else '<p class="back-link"><a href="fr_others.html#ar">Autres +</a></p>'
+    layout=others_layout(rich,name)
+    if name=='fr_others.html':layout,shop_accessories=move_accessories(layout)
+    layout=shortcuts+layout
    if name in book_map:
     book=book_map[name]
     status='<p class="book-status">temporairement épuisé · en attente de réédition</p>' if book.get('availability_exact') else ''
@@ -484,6 +486,7 @@ def main():
    out=out.replace('<body>','<body class="'+('catalog-page' if kind=='catalog' else 'philosophy-page')+'">')
    out=out.replace('</head>','<link rel="stylesheet" href="catalog-editorial.css?v='+hashlib.sha256((DIST/'catalog-editorial.css').read_bytes()).hexdigest()[:12]+'"></head>')
    out=out.replace('src="app.js"','src="app.js?v='+hashlib.sha256((DIST/'app.js').read_bytes()).hexdigest()[:12]+'"')
+  if name=='fr_others.html':out=re.sub(r'(?m)[ \t]+$', '',out)
   target=DIST/name;target.parent.mkdir(parents=True,exist_ok=True);target.write_text(clean_presentation(out,name),encoding='utf-8')
   # Complete source transcripts are retained in source/inventory.json, outside the UI.
   report.append({'source':page['url'],'target':name,'kind':kind,'extraction_rule':rule,'source_core_text':core_original,'core_characters':len(core_original),'images':len(unique),'extra_images':len(extras),'catalog_entries':len(records),'text_preserved':True,'source_sha256':page['sha256']})
@@ -495,13 +498,13 @@ def main():
   markup=markup.replace('"'+asset+'"','"'+asset+'?v='+hashlib.sha256((DIST/asset).read_bytes()).hexdigest()[:12]+'"')
  markup=re.sub(r'(?m)^[ \t]+$', '',markup)
  p.write_text(markup,encoding='utf-8')
- # Dedicated shop, using the two original book records and original ordering routes.
- shop_info={'url':BASE+'fr_boutique.html','title':'Boutique','meta':{'description':'Livres — Guitarreria.eu'}}
+ # Dedicated shop, using the original books and accessories with their ordering routes.
+ shop_info={'url':BASE+'fr_boutique.html','title':'Boutique','meta':{'description':'Livres et accessoires — Guitarreria.eu'}}
  def cover(url,title):return image_html(etree.Element('img',src=url,alt=title),BASE)
- shop_body='<main id="contenu" class="page-main wrap"><div class="page-title"><nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>/</span><span>Boutique</span></nav><p class="eyebrow">Livres</p><h1>Boutique</h1></div>'+shop_page(books,cover)+'</main>'
+ shop_body='<main id="contenu" class="page-main wrap"><div class="page-title"><nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>/</span><span>Boutique</span></nav><p class="eyebrow">Livres et accessoires</p><h1>Boutique</h1></div>'+shop_page(books,cover,shop_accessories)+'</main>'
  PAGE_MAP[shop_info['url']]='fr_boutique.html'
  shop=page_shell(shop_info,shop_body,'Boutique','Boutique',origin).replace('<body>','<body class="shop-page">').replace('</head>','<link rel="stylesheet" href="others-shop.css?v='+hashlib.sha256((DIST/'others-shop.css').read_bytes()).hexdigest()[:12]+'"></head>')
- (DIST/'fr_boutique.html').write_text(shop,encoding='utf-8')
+ (DIST/'fr_boutique.html').write_text(re.sub(r'(?m)[ \t]+$', '',shop),encoding='utf-8')
  # A real missing-page response document, without a fabricated instrument description.
  (DIST/'404.html').write_text('<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Page indisponible — Guitarreria.eu</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="pages.css"><body>'+header('Guitares')+'<main id="contenu" class="page-main wrap"><div class="page-title"><h1>Page indisponible</h1><p>Cette page n’est pas accessible dans le site d’origine.</p><a class="text-link" href="fr_guitars.html">Les Guitares '+PLUS+'</a></div></main>'+footer()+'</body></html>',encoding='utf-8')
  (DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+esc(origin+'/'+r)+'</loc></url>' for r in PAGE_MAP.values())+'</urlset>',encoding='utf-8')
