@@ -1,0 +1,1403 @@
+[
+  {
+    "route": "l_fr_pierre_abondance.html",
+    "name": "Pierre Abondance",
+    "city": "Saint-Front-la-Rivière",
+    "country": "France",
+    "lat": 45.47,
+    "lon": 0.73,
+    "status": "historical",
+    "note": "Atelier du Périgord documenté par un entretien de 2013. Commune identifiée via Pombol ; point au centre du bourg, jamais à la maison. Ne présente pas un atelier actuel. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://guitares-et-luthiers.fr/wp-content/uploads/2017/04/0_pierre_abondance_article.pdf",
+        "title": "Pierre Abondance, entretien direct — Une larme du Diable, 2013",
+        "evidence": "Le journaliste visite le luthier à Pombol près de Saint-Front ; celui-ci annonce sa retraite."
+      },
+      {
+        "url": "https://www.pnr-perigord-limousin.fr/offres/randonnees-velos-et-balades/boucle-de-pombol/",
+        "title": "PNR Périgord-Limousin — Boucle de Pombol",
+        "evidence": "Le parc situe la boucle de Pombol dans la commune de Saint-Front-la-Rivière."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_rene_baarslag.html",
+    "name": "René Baarslag",
+    "city": "Lanjarón",
+    "country": "Espagne",
+    "lat": 36.92,
+    "lon": -3.48,
+    "status": "documented",
+    "note": "Atelier documenté à Lanjarón, dans la province de Grenade ; ne pas utiliser Grenade-ville ni le lieu de naissance néerlandais. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://en.andalucia.org/listing/ren%C3%A9-baarslag-y-ana-espinosa/10219101/",
+        "title": "Andalucía tourisme — René Baarslag y Ana Espinosa",
+        "evidence": "L’organisme touristique répertorie les deux constructeurs à Lanjarón."
+      },
+      {
+        "url": "https://guitar-renebaarslag-anaespinosa.com/D/product/guitarra-clasica-de-concierto/",
+        "title": "René Baarslag et Ana Espinosa — site de l’atelier",
+        "evidence": "Le site commun présente la production de guitares artisanales."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_francisco_barba.html",
+    "name": "Francisco Barba",
+    "city": "Séville",
+    "country": "Espagne",
+    "lat": 37.39,
+    "lon": -5.98,
+    "status": "documented",
+    "note": "Ville de l’atelier familial Barba ; les sources donnent parfois des numéros voisins dans la même rue, sans incidence sur le point de ville. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.museosdeandalucia.es/actualidad?_101_assetEntryId=44314381&_101_groupId=1973906&_101_struts_action=%2Fasset_publisher%2Fview_content&_101_type=content&_101_urlTitle=taller-de-guitarrero&inheritRedirect=true&p_p_id=101&p_p_lifecycle=0&p_p_state=maximized",
+        "title": "Museos de Andalucía — Taller de guitarrero",
+        "evidence": "L’institution identifie Francisco Barba Martínez et son atelier à Séville."
+      },
+      {
+        "url": "https://www.comusica.com/tienda/guitarras-francisco-barba/",
+        "title": "Comúsica — Guitarras Francisco Barba",
+        "evidence": "L’association professionnelle répertorie l’entreprise à Séville."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jesus_bellido.html",
+    "name": "Jesús Bellido",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier actuel partagé avec la famille Bellido, confirmé par le site officiel. Cenes de la Vega correspond à son premier atelier de 1995, pas au lieu actuel. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarreriabellido.com/es/guitarreros/jesus-bellido",
+        "title": "Guitarrería Bellido — Jesús Bellido",
+        "evidence": "La biographie indique le retour dans l’atelier familial en 1999 et précise qu’il y travaille encore."
+      },
+      {
+        "url": "https://www.guitarreriabellido.com/es/contacto",
+        "title": "Guitarrería Bellido — Contacto",
+        "evidence": "Le contact officiel localise l’atelier à Grenade."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_manuel_bellido.html",
+    "name": "Manuel Bellido",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier familial Bellido toujours documenté à Grenade. La biographie Guitarreria annonce sa retraite officielle en 2011 ; ne pas assimiler l’activité familiale actuelle à une cadence individuelle. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarreriabellido.com/es/nosotros",
+        "title": "Guitarrería Bellido — La Familia Bellido",
+        "evidence": "Le site officiel décrit l’atelier partagé par Manuel, Jesús et Mauricio."
+      },
+      {
+        "url": "https://www.guitarreriabellido.com/es/guitarreros/manuel-bellido",
+        "title": "Guitarrería Bellido — Manuel Bellido",
+        "evidence": "La biographie situe son atelier de référence à Grenade depuis 1968."
+      },
+      {
+        "url": "https://www.guitarreria.eu/l_fr_manuel_bellido.html",
+        "title": "Guitarreria — Manuel Bellido",
+        "evidence": "Le texte archivé indique une retraite officielle depuis 2011."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_miguel_angel_bellido.html",
+    "name": "Miguel Àngel López Bellido",
+    "city": null,
+    "country": "Espagne",
+    "lat": null,
+    "lon": null,
+    "status": "uncertain",
+    "note": "La source Guitarreria situe son propre atelier en dehors de Grenade, sans donner la commune. Le nom complet diffère selon les sources. Pas de pin Grenade-ville inventé ; ne pas confondre avec Miguel Ángel Pérez Bellido d’Alcalá de los Gazules. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarreria.eu/l_fr_miguel_angel_bellido.html",
+        "title": "Guitarreria — Miguel Àngel López Bellido",
+        "evidence": "La biographie précise un atelier hors de la ville de Grenade sans commune."
+      },
+      {
+        "url": "https://www.guitarreriabellido.com/es/guitarreros/jesus-bellido",
+        "title": "Guitarrería Bellido — Jesús Bellido",
+        "evidence": "Le site familial cite Miguel Ángel dans les collaborations de la famille, sans localiser son atelier propre."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_lopez_bellido.html",
+    "name": "José López Bellido",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "historical",
+    "note": "Atelier historique à Grenade. Décès du maître guitarrero confirmé le 10 mai 2024 ; ne pas présenter le pin comme atelier personnel actif. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarreria.eu/l_fr_jose_lopez_bellido.html",
+        "title": "Guitarreria — José López Bellido",
+        "evidence": "La légende de visite situe explicitement son atelier à Grenade."
+      },
+      {
+        "url": "https://esquelas.ideal.es/necrologicas/don-jose-lopez-bellido-495093.html",
+        "title": "IDEAL — Avis familial de décès de Don José López Bellido",
+        "evidence": "Avis signé par la famille : maître guitarrero décédé le 10 mai 2024."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_hugues_boivin.html",
+    "name": "Hugues Boivin",
+    "city": "Merry-la-Vallée",
+    "country": "France",
+    "lat": 47.8,
+    "lon": 3.33,
+    "status": "documented",
+    "note": "Atelier documenté par la carte professionnelle du luthier et corroboré par une fiche d’instrument de 2025. Point à la commune uniquement. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://morgancayre.com/liseuse-pdf-url/gc73.pdf",
+        "title": "Guitare Classique 73 — Carte professionnelle Hugues Boivin",
+        "evidence": "La publicité du luthier nomme son atelier à Merry-la-Vallée."
+      },
+      {
+        "url": "https://www.siccasguitars.com/products/hugues-boivin-2025",
+        "title": "Siccas — Hugues Boivin 2025",
+        "evidence": "La notice dit qu’il travaille depuis 2012 dans son atelier de Merry-la-Vallée."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_christelle_caillot.html",
+    "name": "Christelle Caillot",
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86,
+    "lon": 2.35,
+    "status": "documented",
+    "note": "Deux implantations publiées sur le site officiel : atelier et showroom à Paris, atelier à Maussane-les-Alpilles. Repères au centre des communes.",
+    "sources": [
+      {
+        "url": "https://christellecaillot.com/contact/",
+        "title": "Christelle Caillot — Contact officiel",
+        "evidence": "La page publie un atelier-showroom à Paris et un atelier à Maussane-les-Alpilles."
+      },
+      {
+        "url": "https://christellecaillot.com/biographie/",
+        "title": "Christelle Caillot — Biographie officielle",
+        "evidence": "Son atelier parisien est ouvert depuis son retour de Grenade en 2007."
+      }
+    ],
+    "researched_on": "2026-10-13",
+    "locations": [
+      {
+        "city": "Paris",
+        "country": "France",
+        "lat": 48.86,
+        "lon": 2.35,
+        "status": "documented"
+      },
+      {
+        "city": "Maussane-les-Alpilles",
+        "country": "France",
+        "lat": 43.72,
+        "lon": 4.8,
+        "status": "documented"
+      }
+    ]
+  },
+  {
+    "route": "l_fr_manuel_camargo.html",
+    "name": "Manuel Camargo Aranda",
+    "city": "Castro del Río",
+    "country": "Espagne",
+    "lat": 37.69,
+    "lon": -4.48,
+    "status": "documented",
+    "note": "La localisation vient du blog professionnel rédigé par le luthier, et non de sa seule naissance. La page n’est pas datée récemment : présence actuelle à reconfirmer pour organiser une visite. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://manuelcamargoarandaguitarras.blogspot.com/",
+        "title": "Guitarras Manuel Camargo Aranda — blog du luthier",
+        "evidence": "Les coordonnées professionnelles et le profil du luthier donnent Castro del Río, Córdoba."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_juan_miguel_carmona.html",
+    "name": "Juan Miguel Carmona",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier actuel confirmé par la Biennale de Grenade. Les anciennes fiches citent une autre rue mais la ville demeure Grenade. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://bienalgranada.com/guitarreria/guitarreria-juan-miguel-carmona/",
+        "title": "Bienal Granada — Juan Miguel Carmona",
+        "evidence": "La fiche localise le luthier à Grenade et indique qu’il continue d’y construire ses guitares."
+      },
+      {
+        "url": "https://turismo.granada.org/es/empresas/guitarras-lutiers/juan-miguel-carmona",
+        "title": "Ayuntamiento de Granada — Juan Miguel Carmona",
+        "evidence": "La municipalité répertorie le luthier dans le quartier Realejo."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_vicente_carrillo.html",
+    "name": "Vicente Carrillo",
+    "city": "Casasimarro",
+    "country": "Espagne",
+    "lat": 39.39,
+    "lon": -2.04,
+    "status": "documented",
+    "note": "Atelier actuel explicitement localisé par le site officiel. Ne pas utiliser Madrid, Valence ni la ville des revendeurs. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://vicentecarrillo.com/luthier/taller/",
+        "title": "Vicente Carrillo — El Taller",
+        "evidence": "Le luthier situe son atelier à Casasimarro, province de Cuenca."
+      },
+      {
+        "url": "https://vicentecarrillo.com/contacto/",
+        "title": "Vicente Carrillo — Contacto",
+        "evidence": "Les coordonnées officielles confirment Casasimarro."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_alejandro_cervantes.html",
+    "name": "Alejandro Cervantes",
+    "city": "San Diego",
+    "country": "États-Unis",
+    "lat": 32.72,
+    "lon": -117.16,
+    "status": "historical",
+    "note": "Fabrication à San Diego documentée dans un programme de festival de 2012 et par une correspondance du luthier publiée en 2008. Les sites officiels consultés ne donnent pas de localisation actuelle : point historique, pas promesse de visite actuelle. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://es.scribd.com/doc/99451263/Programa-completo-del-Festival-Internacional-de-Guitarra-del-Noreste-2012",
+        "title": "Programme du Festival Internacional de Guitarra del Noreste 2012 — copie publiée",
+        "evidence": "Le programme indique qu’Alejandro fabrique ses guitares à San Diego, Californie."
+      },
+      {
+        "url": "https://jedistar.com/cervantes-guitars/amp/",
+        "title": "Jedistar — correspondance Alejandro Cervantes, 2008",
+        "evidence": "La notice attribue sa source à un courriel du luthier avec localisation professionnelle à San Diego."
+      },
+      {
+        "url": "https://www.cervantesluthier.com/",
+        "title": "Alejandro Cervantes — site officiel",
+        "evidence": "Le site confirme l’identité et le métier, mais ne fournit pas de ville d’atelier accessible."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_juan_antonio_correa_marin.html",
+    "name": "Juan Antonio Correa Marín",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "historical",
+    "note": "Travail dans l’atelier Marín documenté par des visites photographiées en 2005/2013 et une notice professionnelle de 2017. Une source commerciale dit atelier propre ouvert en 2014, une autre dit atelier familial partagé : emplacement actuel exact non établi. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.lacg.net/antonio-marin-montero/",
+        "title": "Billy Arcila — visites de l’atelier Antonio Marín",
+        "evidence": "Des photos prises à Grenade montrent Juan Antonio Correa Marín dans l’atelier familial."
+      },
+      {
+        "url": "https://www.search.luth.org/category/bracing/classical-bracing/",
+        "title": "Guild of American Luthiers — The New Generation of Granada Guitar Makers, 2017",
+        "evidence": "L’article professionnel inclut Juan Antonio Correa Marín parmi les luthiers de Grenade."
+      },
+      {
+        "url": "https://www.siccasguitars.com/products/juan-antonio-correa-marin-2013",
+        "title": "Siccas — Juan Antonio Correa Marín 2013",
+        "evidence": "La notice situe l’apprentissage chez Marín et indique un atelier propre depuis 2014."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jm_debeys.html",
+    "name": "Jean-Marc De Beys",
+    "city": "Sarraguzan",
+    "country": "France",
+    "lat": 43.36,
+    "lon": 0.34,
+    "status": "documented",
+    "note": "Atelier actuel confirmé par l’organisme touristique du Gers. Bruxelles est le lieu de naissance et une implantation historique ; le pin actuel représente Sarraguzan. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.tourisme-gers.com/en/commerce-service/jean-marc-de-beys-artisan-luthier/",
+        "title": "Gers Tourisme — Jean-Marc de Beys artisan luthier",
+        "evidence": "L’organisme situe son atelier à Sarraguzan et publie une fiche avec horaires pour 2026."
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q1005717",
+        "title": "Wikidata — Sarraguzan, référence répertoire géographique des communes",
+        "evidence": "Coordonnées du bourg arrondies pour un repérage communal."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_andres_dominguez.html",
+    "name": "Andrés Domínguez",
+    "city": "Séville",
+    "country": "Espagne",
+    "lat": 37.39,
+    "lon": -5.98,
+    "status": "documented",
+    "note": "Atelier à Triana, Séville, documenté dans le guide touristique institutionnel 2024. Le site personnel n’a pas pu être lu ; la ville est néanmoins explicitement établie. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://visitasevilla.es/wp-content/uploads/2024/04/TDS_Sevilla_Compras_2024_ESP.pptx_compressed.pdf",
+        "title": "Visita Sevilla — Artesanos de la guitarra, 2024",
+        "evidence": "Le guide officiel répertorie Andrés Domínguez à Séville dans les artisans de la guitare."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_eduardo_duran_ferrer.html",
+    "name": "Eduardo Durán Ferrer",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier à Grenade documenté par le répertoire municipal et une interview directe du luthier. La Chambre de commerce situe l’activité familiale Casa Ferrer dans la même ville. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://turismo.granada.org/es/empresas",
+        "title": "Ayuntamiento de Granada — Empresas",
+        "evidence": "Le répertoire municipal des luthiers inclut Eduardo Durán Ferrer."
+      },
+      {
+        "url": "https://www.kazu-classicalguitar.co.uk/compendium/luthiers/spain/eduardo-duran-ferrer",
+        "title": "Kazu Suwa — entretien avec Eduardo Durán Ferrer",
+        "evidence": "L’interview présente explicitement le luthier de Grenade et son parcours d’atelier."
+      },
+      {
+        "url": "https://clubcamaragranada.org/wp-content/uploads/2025/11/Revista-Lideres-Granada-Comercio-Definitiva_compressed.pdf",
+        "title": "Cámara Granada — Líderes Comercio",
+        "evidence": "La notice situe Casa Ferrer à Grenade et nomme Ana et Eduardo Durán Ferrer à sa tête."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_vladimir_druzhinin.html",
+    "name": "Vladimir Druzhinin ( Владимир Дружинин )",
+    "city": null,
+    "country": "Russie",
+    "lat": null,
+    "lon": null,
+    "status": "uncertain",
+    "note": "Un travail à Moscou puis juste à l’extérieur est documenté, mais aucune commune d’atelier actuelle n’est publiée dans les sources consultées. Pas de point Moscou-ville attribué par défaut. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarsalon.com/luthier/vladimir-druzhinin/",
+        "title": "Guitar Salon International — Vladimir Druzhinin",
+        "evidence": "Le distributeur décrit son travail à Moscou puis la préparation d’un atelier dans la région de Moscou."
+      },
+      {
+        "url": "https://www.guitarsalon.com/product/vladimir-druzhinin-3",
+        "title": "GSI — Vladimir Druzhinin 2021",
+        "evidence": "La notice précise qu’il vit et travaille juste à l’extérieur de Moscou."
+      },
+      {
+        "url": "https://www.vd-guitars.com/",
+        "title": "Vladimir Druzhinin — site officiel",
+        "evidence": "Le site du luthier confirme son activité sans adresse ni commune publique dans la page consultée."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_rolf_eichinger.html",
+    "name": "Rolf Eichinger",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "historical",
+    "note": "Implantation historique à Grenade documentée par Guitarreria. Décédé en 2009 ; un témoignage de disciple situe le décès à Salobreña, sans suffire à y relocaliser l’atelier. Ancienne activité à Karlsruhe distincte. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://www.guitarreria.eu/l_fr_rolf_eichinger.html",
+        "title": "Guitarreria — Rolf Eichinger",
+        "evidence": "La biographie décrit son établissement à Grenade et son décès le 18 septembre 2009."
+      },
+      {
+        "url": "https://johnguitar.com/rolf-eichinger/",
+        "title": "John Ray — témoignage sur son maître Rolf Eichinger",
+        "evidence": "Son disciple relate le décès en 2009 et la vente du contenu de l’atelier en 2013."
+      },
+      {
+        "url": "https://nowak-gitarren.de/modell-rolf-eichinger/",
+        "title": "Nowak Gitarren — hommage à son maître",
+        "evidence": "Le disciple précise que Rolf Eichinger est décédé à Salobreña près de Grenade."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_vincent_engelbrecht.html",
+    "name": "Vincent Engelbrecht",
+    "city": "Saint-Michel-l’Observatoire",
+    "country": "France",
+    "lat": 43.91,
+    "lon": 5.72,
+    "status": "documented",
+    "note": "Ville actuelle documentée par l’office de tourisme, fiche mise à jour le 4 juin 2026. Ne pas confondre avec ses études à Grenade ni un revendeur à Lyon. Coordonnées approximatives de ville, pas adresse d’atelier.",
+    "sources": [
+      {
+        "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/engelbrecht-vincent-luthier-en-guitares-saint-michel-lobservatoire-fr-2886439/",
+        "title": "Provence-Alpes-Côte d’Azur Tourisme — Vincent Engelbrecht",
+        "evidence": "La fiche d’office de tourisme localise son atelier à Saint-Michel-l’Observatoire."
+      },
+      {
+        "url": "https://www.legrandnarbonne.com/fileadmin/mediatheque/02_sortir_et_decouvrir/04_patio_des_arts/CATALOGUE_AFFICHE_22_23.pdf",
+        "title": "Grand Narbonne — programme du Patio des Arts 2023",
+        "evidence": "Le programme présente Vincent Engelbrecht comme luthier établi dans cette commune depuis 2006."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_ana_espinosa.html",
+    "name": "Ana Espinosa",
+    "city": "Lanjarón",
+    "country": "Espagne",
+    "lat": 36.92,
+    "lon": -3.48,
+    "status": "documented",
+    "note": "Atelier partagé avec René Baarslag à Lanjarón. Position approximative à l'échelle de la commune.",
+    "sources": [
+      {
+        "url": "https://www.canalsur.es/television/hoy-en-dia/conocemos-ana-espinosa-primera-artesana_1_1224085.html",
+        "title": "Canal Sur — Ana Espinosa, première artisane de la guitare en Espagne",
+        "evidence": "Reportage réalisé à Lanjarón dans l'atelier d'Ana Espinosa, publié le 27 avril 2023."
+      },
+      {
+        "url": "https://guitar-renebaarslag-anaespinosa.com/",
+        "title": "René Baarslag et Ana Espinosa — site officiel",
+        "evidence": "Site officiel commun des deux luthiers."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_olivier_fanton.html",
+    "name": "Olivier Fanton d'Andon",
+    "city": "Montigny-le-Gannelon",
+    "country": "France",
+    "lat": 48.01,
+    "lon": 1.23,
+    "status": "historical",
+    "note": "Atelier documenté à Montigny-le-Gannelon depuis 2004. Localisation actuelle de l'atelier non confirmée : son profil indique aussi Sury-en-Vaux. Le point représente l'atelier historique.",
+    "sources": [
+      {
+        "url": "https://www.cloyeslestroisrivieres.fr/decouvrez-cloyes-3-rivieres/nos-villages/montigny-le-gannelon/",
+        "title": "Commune de Cloyes — Montigny-le-Gannelon",
+        "evidence": "Le site municipal cite Olivier Fanton d'Andon parmi les artisans du village."
+      },
+      {
+        "url": "https://fr.linkedin.com/in/olivier-fanton-d-andon-841a695b",
+        "title": "Olivier Fanton d'Andon — profil professionnel",
+        "evidence": "Il nomme lui-même son atelier de Montigny-le-Gannelon ; le lieu affiché en tête de profil est Sury-en-Vaux."
+      },
+      {
+        "url": "https://www.guitarfoundation.org/page/2014veexhibitors",
+        "title": "Guitar Foundation of America — exposants 2014",
+        "evidence": "L'exposant Olivier Fanton d'Andon est enregistré à Montigny-le-Gannelon."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_daniel_friederich.html",
+    "name": "Daniel Friederich",
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86,
+    "lon": 2.35,
+    "status": "historical",
+    "note": "Atelier historique parisien. Daniel Friederich est décédé en 2020.",
+    "sources": [
+      {
+        "url": "https://www.jeffcogan.net/friederich-film/",
+        "title": "Jeff Cogan — Daniel Friederich, Luthier d'Art",
+        "evidence": "Le réalisateur du documentaire décrit et photographie ses visites de l'atelier parisien, dont celle de 2014."
+      },
+      {
+        "url": "https://guitareum.com/fr/pages/daniel-friederich",
+        "title": "Guitareum — Daniel Friederich",
+        "evidence": "La notice situe sa carrière à Paris et donne les dates 1932–2020."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_antonio_jose_garcia.html",
+    "name": "Antonio José García",
+    "city": "Mairena del Aljarafe",
+    "country": "Espagne",
+    "lat": 37.34,
+    "lon": -6.06,
+    "status": "uncertain",
+    "note": "Implantation à Mairena del Aljarafe documentée par des distributeurs. Le lieu précis de l'atelier et son actualité restent à confirmer directement auprès du luthier.",
+    "sources": [
+      {
+        "url": "https://www.laguitarreria.es/34-antonio-j-garcia",
+        "title": "La Guitarrería — Antonio J García",
+        "evidence": "La biographie du constructeur le situe à Mairena del Aljarafe depuis 2002 et décrit sa formation avec Paco Santiago Marín et Rolf Eichinger."
+      },
+      {
+        "url": "https://reverb.com/de/item/85612043-flamenco-blanca-guitar-antonio-j-garcia-concert-2019-unique",
+        "title": "FlamencoWaves — Antonio José García 2019",
+        "evidence": "Le distributeur attribue cette guitare à Antonio José García de Mairena del Aljarafe, près de Séville."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jm_garcia_fernandez.html",
+    "name": "Juan Manuel García Fernández",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier documenté à Grenade, quartier du Realejo.",
+    "sources": [
+      {
+        "url": "https://turismo.granada.org/es/barrio-turistico/realejo?page=5",
+        "title": "Mairie de Grenade — entreprises du Realejo",
+        "evidence": "L'annuaire municipal du quartier recense Juan Manuel García Fernández."
+      },
+      {
+        "url": "https://www.diariodesevilla.es/entrevistas/construccion-guitarras-artesanales_0_2004388204.html",
+        "title": "Diario de Sevilla — entretien avec Juan Manuel García Fernández",
+        "evidence": "L'entretien du 17 juillet 2025 indique que son atelier de guitare est à Grenade."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_gonzalez_lopez.html",
+    "name": "José González López",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier familial Marín à Grenade, partagé avec Antonio Marín Montero et José Marín Plazuelo.",
+    "sources": [
+      {
+        "url": "https://www.guitarrasmarin.com/josegonzalezlopez.html",
+        "title": "Atelier Marín — José González López",
+        "evidence": "Sa biographie officielle indique qu'il continue de partager l'atelier avec ses maîtres."
+      },
+      {
+        "url": "https://www.andalucia.org/listing/guitarras-mar%C3%ADn-montero/10203102/",
+        "title": "Andalucía — Guitarras Marín Montero",
+        "evidence": "L'office régional du tourisme situe à Grenade l'atelier des trois constructeurs nommés."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_juan_labella.html",
+    "name": "Juan Fabián Labella Manjón",
+    "city": null,
+    "country": "Espagne",
+    "lat": null,
+    "lon": null,
+    "status": "uncertain",
+    "note": "Activité documentée dans la région de Grenade. Une offre de formation mentionne la Sierra de Huétor Santillán ; la commune actuelle de l’atelier n’est pas établie. Aucun point de ville attribué.",
+    "sources": [
+      {
+        "url": "https://www.lacg.net/category/guitar-makers/",
+        "title": "Los Angeles Classical Guitars — Juan Fabián Labella",
+        "evidence": "Le distributeur présente Juan Fabián Labella à Grenade, Espagne, le 25 mars 2015."
+      },
+      {
+        "url": "https://www.jitamen.com/granada-guitar-making-course/",
+        "title": "Jitamen — cours de construction avec Juan Labella",
+        "evidence": "L'organisateur propose une formation individuelle avec Juan Labella et un hébergement dans la Sierra de Huétor Santillán."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_vassilis_lazarides.html",
+    "name": "Vassilis Lazarides",
+    "city": "Lefkotopos",
+    "country": "Grèce",
+    "lat": 40.88,
+    "lon": 23.64,
+    "status": "documented",
+    "note": "Atelier actuel à Lefkotopos, région de Serrès. La biographie ancienne de Guitarreria mentionne Athènes.",
+    "sources": [
+      {
+        "url": "https://lazaridesguitars.com/contact/",
+        "title": "Lazarides Guitars — contact officiel",
+        "evidence": "Le luthier donne Lefkotopos, Serrès comme adresse de son atelier."
+      },
+      {
+        "url": "https://www.ertnews.gr/ert3/o-kataskeyis-kitharon-flamengko-apo-ton-leykotopo-serron-egine-tainia/",
+        "title": "ERT — reportage sur Vassilis Lazarides",
+        "evidence": "La télévision publique grecque rencontre le constructeur à Lefkotopos et présente son documentaire, le 29 avril 2026."
+      },
+      {
+        "url": "https://www.geonames.org/search.html?q=Greece%2CSerres&startRow=50",
+        "title": "GeoNames — Lefkotopos",
+        "evidence": "Les coordonnées du village de Lefkotopos dans Visaltia sont environ 40,877° N et 23,639° E."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_valerio_licari.html",
+    "name": "Valerio Licari",
+    "city": "Turin",
+    "country": "Italie",
+    "lat": 45.07,
+    "lon": 7.69,
+    "status": "documented",
+    "note": "Atelier à Turin depuis 2021, après une période à Grenade puis Castagneto Po.",
+    "sources": [
+      {
+        "url": "https://licariguitars.com/en/contact/",
+        "title": "Licari Guitars — contact officiel",
+        "evidence": "Valerio Licari indique Turin, Italie, comme adresse professionnelle de son atelier."
+      },
+      {
+        "url": "https://www.accademialiuteriapiemontese.it/team/valerio-licari/",
+        "title": "Accademia Liuteria Piemontese — Valerio Licari",
+        "evidence": "L'établissement où il enseigne explique son retour définitif en Italie à la fin de 2019, puis son atelier à Turin depuis 2021."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_casimiro_lozano.html",
+    "name": "Casimiro Lozano",
+    "city": "Rubielos Bajos",
+    "country": "Espagne",
+    "lat": 39.45,
+    "lon": -2.03,
+    "status": "documented",
+    "note": "Atelier rural familial à Rubielos Bajos, province de Cuenca.",
+    "sources": [
+      {
+        "url": "https://casimirolozano.com/en/index.html",
+        "title": "Casimiro et Victor Lozano — site officiel",
+        "evidence": "Le site officiel situe explicitement l'atelier à la périphérie de Rubielos Bajos et indique que Victor travaille avec son père."
+      },
+      {
+        "url": "https://www.getty.edu/vow/TGNFullDisplay?english=N&find=France&nation=&place=&subjectid=7323150",
+        "title": "Getty Thesaurus of Geographic Names — Rubielos Bajos",
+        "evidence": "Le répertoire donne le centre approximatif de la localité : 39,45° N, 2,0333° O."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_victor_lozano.html",
+    "name": "Victor Lozano",
+    "city": "Rubielos Bajos",
+    "country": "Espagne",
+    "lat": 39.45,
+    "lon": -2.03,
+    "status": "documented",
+    "note": "Atelier familial avec Casimiro Lozano à Rubielos Bajos.",
+    "sources": [
+      {
+        "url": "https://casimirolozano.com/en/index.html",
+        "title": "Casimiro et Victor Lozano — site officiel",
+        "evidence": "Le site présente les instruments de Victor, son travail avec son père et leur atelier de Rubielos Bajos."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_marc_maingard.html",
+    "name": "Marc Maingard",
+    "city": "Scarborough, Le Cap",
+    "country": "Afrique du Sud",
+    "lat": -34.2,
+    "lon": 18.38,
+    "status": "documented",
+    "note": "Atelier à Scarborough, près du Cap. Son site annonce la fabrication de ses dernières guitares avant la retraite.",
+    "sources": [
+      {
+        "url": "https://maingardguitars.com/mentors/",
+        "title": "Maingard Guitars — mentors",
+        "evidence": "Marc décrit l'installation de son activité de réparation et de construction à Scarborough, Le Cap, en 1985."
+      },
+      {
+        "url": "https://www.vintageandrare.com/builder/Maingard-Guitars-757",
+        "title": "Maingard Guitars — profil du constructeur",
+        "evidence": "La fiche du constructeur donne Scarborough, Cape Town comme implantation professionnelle."
+      },
+      {
+        "url": "https://maingardguitars.com/",
+        "title": "Maingard Guitars — site officiel",
+        "evidence": "Le site annonce ses dernières constructions avant la retraite après presque cinquante années d'activité."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_pedro_maldonado.html",
+    "name": "Pedro Maldonado",
+    "city": "Málaga",
+    "country": "Espagne",
+    "lat": 36.72,
+    "lon": -4.42,
+    "status": "historical",
+    "note": "Atelier historique de Pedro Maldonado père à Málaga. Décédé en 2020 ; l'atelier familial est désormais dirigé par Luis Maldonado. Pedro Maldonado fils a aussi travaillé à Torremolinos.",
+    "sources": [
+      {
+        "url": "https://pedromaldonadoguitars.com/taller/",
+        "title": "Pedro Maldonado Guitars — histoire officielle de l'atelier",
+        "evidence": "L'atelier familial décrit l'activité du père à Málaga, son décès en 2020 et la poursuite du travail par Luis Maldonado ; il distingue le second atelier de Torremolinos du fils Pedro."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_felix_manzanero.html",
+    "name": "Felix Manzanero",
+    "city": "Madrid",
+    "country": "Espagne",
+    "lat": 40.42,
+    "lon": -3.7,
+    "status": "historical",
+    "note": "Atelier historique fondé dans le quartier de La Latina, Madrid. Félix Manzanero est décédé en 2019.",
+    "sources": [
+      {
+        "url": "https://www.esmadrid.com/compras/guitarras-manzanero",
+        "title": "Turismo Madrid — Guitarras Manzanero",
+        "evidence": "L'office municipal du tourisme situe l'atelier créé par Félix Manzanero dans le quartier de La Latina, Madrid."
+      },
+      {
+        "url": "https://luth.org/2020_0343300-mem-manzenaro/",
+        "title": "Guild of American Luthiers — In Memoriam, Felix Manzanero",
+        "evidence": "Ronald Luis Fernández, ami du luthier depuis 1967, documente son décès le 18 août 2019 et son atelier madrilène dans cette notice nécrologique publiée dans American Lutherie en 2020."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_antonio_marin_montero.html",
+    "name": "Antonio Marín Montero",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier familial Marín à Grenade, partagé avec José Marín Plazuelo et José González López.",
+    "sources": [
+      {
+        "url": "https://www.andalucia.org/listing/guitarras-mar%C3%ADn-montero/10203102/",
+        "title": "Andalucía — Guitarras Marín Montero",
+        "evidence": "L'office régional du tourisme situe l'atelier à Grenade et cite les trois constructeurs."
+      },
+      {
+        "url": "https://www.guitarrasmarin.com/",
+        "title": "Taller de guitarras Marín — site officiel",
+        "evidence": "Site officiel de l'atelier familial Marín."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_marin_plazuelo.html",
+    "name": "José Marín Plazuelo",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier familial Marín à Grenade.",
+    "sources": [
+      {
+        "url": "https://www.guitarrasmarin.com/josemarinplazuelo.html",
+        "title": "Atelier Marín — José Marín Plazuelo",
+        "evidence": "Sa biographie officielle indique qu'il partage encore l'atelier avec son oncle Antonio Marín Montero."
+      },
+      {
+        "url": "https://www.andalucia.org/listing/guitarras-mar%C3%ADn-montero/10203102/",
+        "title": "Andalucía — Guitarras Marín Montero",
+        "evidence": "L'office régional du tourisme recense l'atelier des trois luthiers à Grenade."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_bernd_martin.html",
+    "name": "Bernd Martin",
+    "city": "El Turro",
+    "country": "Espagne",
+    "lat": 37.13,
+    "lon": -3.94,
+    "status": "historical",
+    "note": "Dernier atelier déclaré à El Turro, province de Grenade, depuis 2013. Bernd Martin est décédé en 2018 ; il a auparavant travaillé dans plusieurs ateliers de Grenade.",
+    "sources": [
+      {
+        "url": "https://jedistar.com/bernd-martin-2/",
+        "title": "Jedistar — déclaration et chronologie de Bernd Martin",
+        "evidence": "La page publie une déclaration du luthier datée du 11 avril 2017 listant ses ateliers, dont El Turro depuis 2013."
+      },
+      {
+        "url": "https://www.guitarsalon.com/luthier/bernd-and-lucas-martin",
+        "title": "Guitar Salon International — Bernd Martin",
+        "evidence": "Son distributeur documente sa carrière dans la région de Grenade et son décès en 2018."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_lucas_martin.html",
+    "name": "Lucas Martin",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "historical",
+    "note": "Atelier partagé avec son père documenté à Grenade, quartier du Sacromonte, en 2006–2011. Une implantation familiale ultérieure à El Turro est mentionnée pour Bernd ; l'atelier actuel de Lucas reste à confirmer.",
+    "sources": [
+      {
+        "url": "https://www.guitarsalon.com/blog/luthier-bernd-and-lucas-martin/",
+        "title": "Guitar Salon International — Bernd et Lucas Martin",
+        "evidence": "La visite et biographie du distributeur, publiée le 11 avril 2011, situe leur atelier commun au Sacromonte à Grenade."
+      },
+      {
+        "url": "https://www.andalucia.org/listing/bernd-martin-%26-lucas-martin/10204102/",
+        "title": "Andalucía — Bernd Martin et Lucas Martin",
+        "evidence": "L'annuaire touristique cite un atelier des deux luthiers à Grenade, Camino del Sacromonte."
+      },
+      {
+        "url": "https://jedistar.com/bernd-martin-2/",
+        "title": "Jedistar — chronologie de Bernd Martin",
+        "evidence": "La déclaration du père situe son propre atelier à El Turro à partir de 2013, ce qui rend l'annuaire du Sacromonte ancien."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_juan_montero_aguilera.html",
+    "name": "Juan Montero Aguilera",
+    "city": "Córdoba",
+    "country": "Espagne",
+    "lat": 37.89,
+    "lon": -4.78,
+    "status": "historical",
+    "note": "Atelier historique de la rue Goya à Córdoba. Le luthier était déjà décédé lors du témoignage de l'association patrimoniale ACUPAMAR en 2024.",
+    "sources": [
+      {
+        "url": "https://www.guitarreria.eu/l_fr_juan_montero_aguilera.html",
+        "title": "Guitarreria — Juan Montero Aguilera",
+        "evidence": "La biographie retrace l'installation de son atelier à Córdoba et une visite de l'atelier en 2007."
+      },
+      {
+        "url": "https://cordobaturismo.es/wp-content/uploads/3835/guia_artesania.pdf",
+        "title": "Córdoba Turismo — guide de l'artisanat",
+        "evidence": "L'office du tourisme recense l'atelier Juan Montero Aguilera à Córdoba."
+      },
+      {
+        "url": "https://acupamar.blogspot.com/2024/05/acupamar-ofrece-colaboracion-al.html",
+        "title": "ACUPAMAR — proposition de musée ethnographique",
+        "evidence": "L'association ayant échangé avec ses filles évoque le matériel de son atelier à Córdoba et précise que leur père est décédé."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_rafael_moreno_rodriguez.html",
+    "name": "Rafael Moreno Rodríguez",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "documented",
+    "note": "Atelier documenté à Grenade, Jesús y María, après Cuesta de Gomérez.",
+    "sources": [
+      {
+        "url": "https://www.guitarsalon.com/blog/luthier-rafael-moreno-rodriguez",
+        "title": "Guitar Salon International — Rafael Moreno Rodríguez",
+        "evidence": "Son distributeur décrit son atelier granadin et son déplacement rue Jesús y María à partir de 2000."
+      },
+      {
+        "url": "https://turismo.granada.org/es/empresas",
+        "title": "Mairie de Grenade — annuaire professionnel",
+        "evidence": "L'annuaire municipal recense Rafael Moreno Rodríguez avec ses coordonnées professionnelles."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_thomas_norwood.html",
+    "name": "Thomas Norwood",
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86,
+    "lon": 2.35,
+    "status": "historical",
+    "note": "Atelier historique à Paris. Thomas Norwood est décédé en 2021 ; Émeline Chevalier indique avoir repris son atelier. Position au centre de la ville, pas à l'adresse de l'atelier.",
+    "sources": [
+      {
+        "url": "https://latelierduchevalier.com/emeline-chevalier-luthiere-en-guitare/",
+        "title": "L'Atelier du chevalier — À propos",
+        "evidence": "Émeline Chevalier raconte sa rencontre avec Thomas Norwood et la reprise de son atelier parisien."
+      },
+      {
+        "url": "https://www.guitarreria.eu/l_fr_thomas_norwood.html",
+        "title": "Guitarreria — Thomas Norwood",
+        "evidence": "La biographie situe sa fabrication à Paris et annonce son décès le 14 février 2021."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_mark_peirelinck.html",
+    "name": "Mark Peirelinck",
+    "city": "La Roche-en-Brenil",
+    "country": "France",
+    "lat": 47.38,
+    "lon": 4.18,
+    "status": "documented",
+    "note": "Atelier en Bourgogne documenté par la Galerie des Luthiers dans une fiche publiée sur Reverb. Son ancien atelier était en Belgique. Position approximative de la commune ; adresse actuelle non confirmée sur son site personnel.",
+    "sources": [
+      {
+        "url": "https://reverb.com/item/82701312-mark-peirelinck-2021-w-video",
+        "title": "Galerie des Luthiers — Mark Peirelinck 2021",
+        "evidence": "La présentation du fabricant par la Galerie des Luthiers indique que son atelier est désormais à La Roche-en-Brenil, en Bourgogne."
+      },
+      {
+        "url": "https://www.guitarreria.eu/l_fr_mark_peirelinck.html",
+        "title": "Guitarreria — Mark Peirelinck",
+        "evidence": "La biographie ancienne décrit son installation initiale dans le nord de la Belgique en 1987."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jeronimo_pena_fernandez.html",
+    "name": "Jerónimo Peña Fernández",
+    "city": "Marmolejo",
+    "country": "Espagne",
+    "lat": 38.05,
+    "lon": -4.17,
+    "status": "historical",
+    "note": "Atelier historique à Marmolejo. Décédé en 2023 ; sa maison-atelier fait l'objet de visites patrimoniales. Position approximative de la commune.",
+    "sources": [
+      {
+        "url": "https://marmolejo.es/wp-content/uploads/2025/06/montaje-REVISTA-VERANO-2025.pdf",
+        "title": "Ayuntamiento de Marmolejo — programme de l'été 2025",
+        "evidence": "Le programme municipal organise des visites de la maison-atelier Jerónimo Peña Fernández à Marmolejo."
+      },
+      {
+        "url": "https://cadenaser.com/andalucia/2023/04/21/fallece-el-luthier-jeronimo-pena-ser-andujar/",
+        "title": "Cadena SER — Fallece el luthier Jerónimo Peña",
+        "evidence": "La rédaction locale annonce le décès du maître en avril 2023."
+      },
+      {
+        "url": "https://www.guitarreria.eu/l_fr_jeronimo_pena_fernandez.html",
+        "title": "Guitarreria — Jerónimo Peña Fernández",
+        "evidence": "La visite de son atelier situe sa maison et son travail à Marmolejo."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_graciliano_perez.html",
+    "name": "Graciliano & José Pérez Carrizosa",
+    "city": "Córdoba",
+    "country": "Espagne",
+    "lat": 37.89,
+    "lon": -4.78,
+    "status": "documented",
+    "note": "Atelier des deux frères à Córdoba, dans le parc Tecnocórdoba. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.gracilianoperez.com/contacto.html",
+        "title": "Guitarrería Graciliano Pérez — Contacto",
+        "evidence": "La page de contact officielle donne l'atelier de Córdoba et les contacts de Graciliano et José Pérez Carrizosa."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_antonio_picado.html",
+    "name": "Antonio Picado",
+    "city": "Berga",
+    "country": "Espagne",
+    "lat": 42.1,
+    "lon": 1.85,
+    "status": "documented",
+    "note": "Manufacture de guitares Antonio Picado documentée à Berga, zone industrielle de la Valldan. Position approximative de la commune.",
+    "sources": [
+      {
+        "url": "https://do.diba.cat/data/ds/establiments/detall/cens-0802290004-2863?embed=true",
+        "title": "Diputació de Barcelona — établissement Antonio Picado Cardosa",
+        "evidence": "Le recensement officiel de Berga identifie l'activité de manufacture et montage de guitares Antonio Picado Cardosa dans cette commune."
+      },
+      {
+        "url": "https://territori.gencat.cat/web/.content/home/06_territori_i_urbanisme/IDAPA/30_documentacio/invesjove/invesjove_2016.pdf",
+        "title": "Generalitat de Catalunya — InvesJove 2016",
+        "evidence": "Une étude décrit la fabrication des guitares Antonio Picado dans un atelier du parc industriel de la Valldan, près du centre de Berga."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_romuald_provost.html",
+    "name": "Romuald Provost",
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86,
+    "lon": 2.35,
+    "status": "documented",
+    "note": "Atelier documenté dans le 14e arrondissement de Paris. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.provost-guitare.com/contact",
+        "title": "Atelier Romuald Provost — Contact",
+        "evidence": "Le site officiel indique son atelier rue du Texel, Paris 14e."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_ramirez.html",
+    "name": "José Ramirez",
+    "city": "Madrid",
+    "country": "Espagne",
+    "lat": 40.42,
+    "lon": -3.7,
+    "status": "documented",
+    "note": "Maison Ramírez à Madrid ; atelier de fabrication et boutique sont à deux adresses distinctes dans la ville. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://guitarrasramirez.com/es/contacto/",
+        "title": "Guitarras Ramírez — Contacto",
+        "evidence": "Le site officiel distingue la boutique de la calle de la Paz et l'atelier de la calle del General Margallo, tous deux à Madrid."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_manuel_reyes.html",
+    "name": "Manuel Reyes",
+    "city": "Córdoba",
+    "country": "Espagne",
+    "lat": 37.89,
+    "lon": -4.78,
+    "status": "historical",
+    "note": "Atelier historique de Manuel Reyes père à Córdoba. Décédé en 2014 ; son fils a poursuivi l'activité. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://luth.org/2005_0231700-84-brune-reyes/",
+        "title": "Guild of American Luthiers — Manuel Reyes: Guitarrero",
+        "evidence": "Le récit de R. E. Brune situe l'installation et l'activité du maître à Córdoba."
+      },
+      {
+        "url": "https://www.guitarsalon.com/luthier/manuel-reyes",
+        "title": "Guitar Salon International — Manuel Reyes",
+        "evidence": "Son ancien distributeur documente Córdoba comme atelier unique et la succession par Manuel Reyes fils après le décès du père en 2014."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_rodriguez_pena.html",
+    "name": "José Rodríguez Peña",
+    "city": "Córdoba",
+    "country": "Espagne",
+    "lat": 37.89,
+    "lon": -4.78,
+    "status": "documented",
+    "note": "Atelier à Córdoba. Ne pas confondre avec Manuel Rodríguez ou Juan Montes Rodríguez. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/areas/comercio/artesania/paginas/luthier-jrpena.html",
+        "title": "Junta de Andalucía — José Rodríguez Peña",
+        "evidence": "La fiche officielle du maître donne ses coordonnées professionnelles calle San Pablo, à Córdoba."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_ruiz_pedregosa.html",
+    "name": "José Ruiz Pedregosa",
+    "city": "Marmolejo",
+    "country": "Espagne",
+    "lat": 38.05,
+    "lon": -4.17,
+    "status": "documented",
+    "note": "Fabrication documentée à Marmolejo. Position approximative de la commune ; adresse précise actuelle non confirmée.",
+    "sources": [
+      {
+        "url": "https://www.guitarreria.eu/l_fr_jose_ruiz_pedregosa.html",
+        "title": "Guitarreria — José Ruiz Pedregosa",
+        "evidence": "La biographie et les photographies de l'atelier situent son activité à Marmolejo."
+      },
+      {
+        "url": "https://clasica2.com/clasica/Noticias-de-Musica-Clasica/Dario-Moreira-presenta-su-disco-Concierto-de-Guitarra-Creativa-ORIRI",
+        "title": "Darío Moreira — présentation du disque ORIRI",
+        "evidence": "Le guitariste identifie son instrument de José Ruiz Pedregosa comme construit à Marmolejo, Jaén."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_federico_sheppard.html",
+    "name": "Federico Sheppard",
+    "city": "Green Bay",
+    "country": "États-Unis",
+    "lat": 44.5133,
+    "lon": -88.0133,
+    "status": "documented",
+    "note": "Deux ateliers documentés : Green Bay, Wisconsin, et Carrión de los Condes, Espagne. Biographie professionnelle actualisée en 2024. Positions aux centres des villes.",
+    "locations": [
+      {
+        "city": "Green Bay",
+        "country": "États-Unis",
+        "lat": 44.51,
+        "lon": -88.01,
+        "status": "documented",
+        "note": "Atelier aux États-Unis, selon la biographie de la Guild of American Luthiers actualisée en 2024."
+      },
+      {
+        "city": "Carrión de los Condes",
+        "country": "Espagne",
+        "lat": 42.34,
+        "lon": -4.6,
+        "status": "documented",
+        "note": "Atelier et résidence artistique en Espagne, selon la même biographie et le programme Camino Artes."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.search.luth.org/Federico-Sheppard/",
+        "title": "Guild of American Luthiers — Federico Sheppard",
+        "evidence": "La biographie, datée de 2024, précise qu'il partage son temps entre ses ateliers de Green Bay et de Carrión de los Condes."
+      },
+      {
+        "url": "https://www.reneizquierdoguitar.com/international-workshops",
+        "title": "René Izquierdo — Camino Artes Guitar Workshop",
+        "evidence": "Le programme de Camino Artes à Carrión de los Condes présente Federico Sheppard comme luthier et responsable des soins aux instruments."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_stephan_schlemper.html",
+    "name": "Stephan Schlemper",
+    "city": "Worpswede",
+    "country": "Allemagne",
+    "lat": 53.22,
+    "lon": 8.93,
+    "status": "documented",
+    "note": "Atelier documenté à Worpswede, près de Brême. Position approximative de la commune.",
+    "sources": [
+      {
+        "url": "https://rhineguitar.de/images/pdf/KIGF-Booklet-2019.pdf",
+        "title": "Koblenz International Guitar Festival — livret 2019",
+        "evidence": "La présentation publicitaire de Stephan Schlemper indique ses guitares et amplificateurs à Worpswede, Allemagne."
+      },
+      {
+        "url": "https://miz.org/de/institutionen/schlemper-stephan-i29512",
+        "title": "Deutsches Musikinformationszentrum — Stephan Schlemper",
+        "evidence": "L'annuaire du centre allemand d'information musicale situe le fabricant de guitares de concert à Worpswede."
+      },
+      {
+        "url": "https://www.seefeldt-guitars.com/werkstatt/",
+        "title": "Andreas Seefeldt — Werkstatt",
+        "evidence": "Son ancien apprenti explique avoir reçu sa formation auprès de Schlemper à Worpswede."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jasper_sender.html",
+    "name": "Jasper Sender",
+    "city": "L'Arbresle",
+    "country": "France",
+    "lat": 45.84,
+    "lon": 4.62,
+    "status": "documented",
+    "note": "Atelier documenté à L'Arbresle, près de Lyon. Position approximative de la commune.",
+    "sources": [
+      {
+        "url": "https://www.jaspersenderluthier.com/",
+        "title": "Jasper Sender — site officiel",
+        "evidence": "Le luthier indique explicitement que son atelier est basé à L'Arbresle, à vingt kilomètres de Lyon."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_juan_lopez_aguilarte.html",
+    "name": "Juan López Aguilarte",
+    "city": "Grenade",
+    "country": "Espagne",
+    "lat": 37.18,
+    "lon": -3.6,
+    "status": "historical",
+    "note": "Atelier historique à Granada. Le site d'origine le présente comme retraité ; la carte situe l'atelier où ses instruments ont été construits, pas son lieu de résidence. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.vintage-guitar-world.com/shop/all-guitars/juan-lopez-aguilarte-2007-flamenco-guitar/",
+        "title": "Juan López Aguilarte 2007 — photographie de l'étiquette",
+        "evidence": "L'étiquette photographiée de l'instrument porte la ville de Granada et la Placeta Aliatar comme adresse du fabricant."
+      },
+      {
+        "url": "https://www.guitarreria.eu/l_fr_juan_lopez_aguilarte.html",
+        "title": "Guitarreria — Juan López Aguilarte",
+        "evidence": "La page d'origine indique sa retraite et l'arrêt de production."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_jose_romero.html",
+    "name": "José Romero",
+    "city": "Madrid",
+    "country": "Espagne",
+    "lat": 40.42,
+    "lon": -3.7,
+    "status": "documented",
+    "note": "Atelier de José Romero à Madrid. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.madrid.org/bvirtual/BVCM019353.pdf",
+        "title": "Comunidad de Madrid — Guía Madrid Tradición Viva",
+        "evidence": "Le guide officiel documente le propre atelier de José Romero calle Espoz y Mina à Madrid, ouvert en 1983."
+      },
+      {
+        "url": "https://www.paginasamarillas.es/f/madrid/guitarreria-jose-romero_000508200_000000001.html",
+        "title": "Páginas Amarillas — Guitarrería José Romero",
+        "evidence": "L'annuaire professionnel actuel conserve l'établissement de guitarrería à Madrid."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_pascal_quinson.html",
+    "name": "Pascal Quinson",
+    "city": "Castelnau-Montratier",
+    "country": "France",
+    "lat": 44.27,
+    "lon": 1.35,
+    "status": "documented",
+    "note": "Atelier installé à Castelnau-Montratier depuis 2022/2023. Anciennes implantations à Montauban et près de Lauzerte. Position approximative de la commune.",
+    "sources": [
+      {
+        "url": "https://www.ccquercyblanc.fr/wp-content/uploads/2023/09/FEST-QB-affiche-flyer-Castelnau-24.pdf",
+        "title": "Communauté de communes du Quercy Blanc — festival 2024",
+        "evidence": "Le programme officiel remercie Pascal Quinson en le présentant comme luthier à Castelnau-Montratier."
+      },
+      {
+        "url": "https://www.ladepeche.fr/2023/07/10/trois-artisans-dart-ouvrent-un-atelier-11332196.php",
+        "title": "La Dépêche — Trois artisans d'art ouvrent un atelier",
+        "evidence": "Le reportage de juillet 2023 précise que Pascal Quinson est désormais installé à Castelnau-Montratier et travaille à l'étage de l'atelier."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_pedro_miguel.html",
+    "name": "Pedro de Miguel",
+    "city": "Madrid",
+    "country": "Espagne",
+    "lat": 40.42,
+    "lon": -3.7,
+    "status": "documented",
+    "note": "Maison et atelier Pedro de Miguel à Madrid. Position au centre de la ville.",
+    "sources": [
+      {
+        "url": "https://www.guitarraspedrodemiguel.com/localizacion.html",
+        "title": "Guitarras Pedro de Miguel — Localización",
+        "evidence": "Le site officiel indique la guitarrería calle Amor de Dios, à Madrid."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_dominique_field.html",
+    "name": "Dominique Field",
+    "city": "Athènes",
+    "country": "Grèce",
+    "lat": 37.98,
+    "lon": 23.73,
+    "status": "documented",
+    "note": "Atelier transféré de Paris à Athènes en novembre 2020. Position au centre de la ville ; adresse précise non indiquée.",
+    "sources": [
+      {
+        "url": "https://www.guitarsalon.com/blog/french-luthier-daniel-friederich-has-passed-away-at-the-age-of-88/",
+        "title": "Guitar Salon International — hommage à Daniel Friederich, 16 novembre 2020",
+        "evidence": "GSI, distributeur exclusif de Field, rapporte que Dominique Field venait de lui annoncer son déménagement à Athènes la semaine précédente."
+      },
+      {
+        "url": "https://www.siccasguitars.com/blogs/luthiers/dominique-field",
+        "title": "Siccas Guitars — Dominique Field",
+        "evidence": "La biographie du fabricant confirme le transfert de son atelier à Athènes en 2020."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  },
+  {
+    "route": "l_fr_rafael_romero.html",
+    "name": "Rafael Romero",
+    "city": "San Fernando",
+    "country": "Espagne",
+    "lat": 36.46,
+    "lon": -6.2,
+    "status": "documented",
+    "note": "Atelier de Rafael Romero Barroso à San Fernando, province de Cádiz. Position au centre de la ville ; les sources donnent des adresses différentes dans cette même ville.",
+    "sources": [
+      {
+        "url": "https://www.andalucia.org/listing/guitarras-romero/10224102/",
+        "title": "Turismo de Andalucía — Guitarras Romero",
+        "evidence": "La fiche touristique officielle situe la fabrication de Rafael Romero Barroso à San Fernando, Cádiz."
+      }
+    ],
+    "researched_on": "2026-10-13"
+  }
+]

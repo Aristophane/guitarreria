@@ -1,0 +1,94 @@
+{
+  "scope": "Contenu archivé existant seulement ; aucun nouveau prix, stock ou mode de paiement proposé.",
+  "source_routes": ["fr_others.html", "vt_g_granada.html", "vt_courtnall.html"],
+  "books": [
+    {
+      "route": "vt_g_granada.html",
+      "title_exact": "La Escuela Granadina de Guitarreros. The Granada School of Guitar-makers.",
+      "publisher_exact": "Diputación Provincial de Granada",
+      "year_exact": "2014",
+      "languages_exact": "espagnol & anglais",
+      "list_description_exact": "enfin édité après des années de travail : un ouvrage exceptionnel",
+      "list_price_exact": "prix htx : 40 €",
+      "detail_price_exact": "prix du livre : 40 € - htx. -",
+      "tax_status": "Hors taxes explicitement dans les deux sources ; ne pas présenter 40 € TTC.",
+      "availability_exact": ["--- temporairement épuisé ---", "--- en attente de réédition ---"],
+      "source_conflicts": ["La fiche commence par « voici enfin disponible » mais mentionne ensuite explicitement « temporairement épuisé / en attente de réédition ». La liste ne mentionne pas cet épuisement. La mention explicite d'épuisement doit être visible dans Boutique."],
+      "cover_url": "https://www.guitarreria.eu/pics/0_g_granada_2.jpg",
+      "list_cover_url": "https://www.guitarreria.eu/pics/0_g_granada_1.jpg",
+      "images": [
+        {"url": "https://www.guitarreria.eu/pics/0_g_granada_2.jpg", "role": "Première de couverture, vérifiée visuellement", "width": 330, "height": 324},
+        {"url": "https://www.guitarreria.eu/pics/0_g_granada_3.jpg", "role": "Quatrième de couverture, vérifiée visuellement", "width": 330, "height": 322},
+        {"url": "https://www.guitarreria.eu/pics/0_g_granada_4.jpg", "role": "Photo intérieure", "width": 500, "height": 375},
+        {"url": "https://www.guitarreria.eu/pics/0_g_granada_5.jpg", "role": "Photo intérieure", "width": 500, "height": 375}
+      ],
+      "description_exact": [
+        "Un ouvrage exceptionnel, un projet d'envergure qui a représenté des années de préparation : voici enfin disponible ce magnifique livre qui reprend l'ensemble des artisans luthiers de Granada",
+        "Le livre est dans les deux langues : espagnol & anglais",
+        "305 pages de l'histoire de \" l'école des luthiers de Grenade \" et biographies des luthiers actuellement en activité et photos",
+        "couverture carton, impression excellente sur papier de qualité",
+        "... prix dérisoire ! ...n'hésitez pas !"
+      ],
+      "dimensions_exact": "dimensions : 235 mm / 222 mm / 35mm - poids : 1,445 kg",
+      "shipping_exact": [
+        "France en Colissimo (assuré & contre signature) : 10,87- €",
+        "Europe (assuré & contre signature)) : 15,68- €",
+        "si vous désirez une autre forme d'envoi ou tarif économique -mais sans assurance- contactez-nous"
+      ],
+      "ordering_exact": "pour commander ce livre : contactez-nous :",
+      "ordering_email_href": "mailto:info@guitarreria.eu?subject=Guitarreria.eu : Livre : La Escuela Granadina de Guitarreros",
+      "ordering_phone_exact": "+33648164495",
+      "ordering_note": "Demande par contact uniquement ; aucun panier, paiement intégré ou disponibilité immédiate dans la source."
+    },
+    {
+      "route": "vt_courtnall.html",
+      "title_exact": "La fabrication des Guitares Classiques",
+      "author_exact": "Roy Courtnall",
+      "publisher_exact": "Vial",
+      "year_exact": "2000",
+      "list_language_exact": "édition en Français",
+      "list_other_language_exact": "also available in English",
+      "list_description_exact": "l'incontournable ouvrage de Roy Courtnall",
+      "list_price_exact": "prix ttc : 61,75 €",
+      "detail_price_exact": "prix du livre : 61,75 €",
+      "tax_status": "TTC explicitement sur la liste seulement ; la fiche ne donne aucune mention fiscale. Les montants concordent.",
+      "availability_note": "Aucune quantité ou mention explicite de stock dans la fiche ; commande de l'édition française redirigée vers l'éditeur.",
+      "source_conflicts": ["Pas de contradiction de montant ; précision TTC uniquement dans fr_others.html. La fiche demande de s'adresser directement à l'éditeur pour commander, tandis que l'édition anglaise peut être commandée sur demande."],
+      "cover_url": "https://www.guitarreria.eu/pics/vt_courtnall1.jpg",
+      "list_cover_url": "https://www.guitarreria.eu/pics/vt_courtnall1_s.jpg",
+      "images": [
+        {"url": "https://www.guitarreria.eu/pics/vt_courtnall1.jpg", "role": "Couverture édition française", "width": 200, "height": 294},
+        {"url": "https://www.guitarreria.eu/pics/vt_courtnall1_in.jpg", "role": "Photo intérieure", "width": 380, "height": 272},
+        {"url": "https://www.guitarreria.eu/pics/vt_courtnall1_en_s.jpg", "role": "Couverture édition anglaise", "width": 150, "height": 209}
+      ],
+      "description_exact": [
+        "Un ouvrage de référence en ce qui concerne la lutherie des guitares classiques, qui couvre tous les aspects de la conception et de la construction de la guitare classique espagnole.",
+        "Publié pour la première fois en 1993, revu et réédité depuis, il a été reconnu comme une source unique pour ceux qui veulent construire des guitares selon leur concept authentique.",
+        "Des plans détaillés des instruments conçus par les luthiers internationaux les plus renommés sont fournis : Antonio de Torrès, Herman Hauser, Santos Hernandez, Manuel Hernandez et Victoriano Aguado, Ignacio Fleta, Robert Bouchet, Daniel Friederich et Jose Romanillos.",
+        "L'auteur a examiné plusieurs instruments de ces luthiers et lorsque cela était possible donné les informations obtenues et approuvées par ces luthiers eux-mêmes."
+      ],
+      "ordering_exact": ["pour commander ce livre :", "adressez-vous directement à l'éditeur :", "voyez la fiche complète sur leur site :", "Editions Vial"],
+      "ordering_publisher_href": "http://www.editionsvial.com/fiche-produit.php?id_domaine=10&id_livre=88",
+      "english_ordering_exact": "english edition can be ordered on request",
+      "english_ordering_email_href": "mailto:info@guitarreria.eu?subject=Guitarreria : Roy Courtnall - La fabrication des Guitares Classiques",
+      "ordering_note": "Préserver le lien éditeur d'origine comme mode de commande français ; le mail de Guitarreria correspond à la demande concernant l'édition anglaise. Ne pas créer une vente directe fictive."
+    }
+  ],
+  "shared_contact_route": "fr_contact.html",
+  "asset_note": "Les neuf images de livres et couvertures listées figurent dans site/source/assets.json avec des chemins audit/original-assets/pics et assets/original/pics.",
+  "others_layout_proposal": [
+    {"section": "Atelier", "source_route": "fr_others.html", "source_anchor": "in", "content": ["atelier de lutherie", "toutes réparation, réglages, etc.", "sur devis", "Bruxelles et Midi-Pyrénées"], "email_href": "mailto:info@guitarreria.eu?subject=Guitarreria.eu : atelier", "layout": "Bloc autonome avec les quatre photos guitarreria_taller04/02/01/03.jpg ; conserver la demande de renseignements et le téléphone source."},
+    {"section": "Cours", "source_route": "fr_others.html", "source_position": "Sous-section suivant Atelier, avant l'ancre bo", "content": ["cours guitare classique", "cours guitare flamenco", "sur Bruxelles et en Midi-Pyrénées ou ailleurs"], "email_href": "mailto:info@guitarreria.eu?subject=Guitarreria.eu : info cours", "layout": "Bloc distinct de l'atelier, mêmes informations de contact conservées."},
+    {"section": "Boutique", "source_route": "fr_others.html", "source_anchor": "bo", "content": ["Les deux livres ci-dessus"], "layout": "Nouvel onglet dédié aux livres ; liens vers les deux fiches intégrales. Préserver fr_others.html#bo par ancre relais ou redirection pertinente."},
+    {"section": "Accessoires", "source_route": "fr_others.html", "source_position": "Depuis le titre « \"le\" diapason » jusqu'avant l'ancre anipo", "content": ["\"le\" diapason : 440 Hhz, caisson épicéa, prix ttc 59 € ; fiche vt_440wood.html", "Mécaniques FUSTERO, modèle Torres, sur commande pour modèles spéciaux/sur mesures ; fiche vt_fustero.html", "Mécaniques Nicolo ALESSI ; conserver la formulation source « bientôt ... disponibles » sans inventer un stock"], "layout": "Trois blocs espacés, une photo de produit chacun ; le diapason ne doit pas être omis bien qu'il soit situé avant le titre Accessoires dans la source."},
+    {"section": "Protection de l'instrument", "source_route": "fr_others.html", "source_anchor": "anipo", "content": ["Partenariat ANIPO et intégralité des textes français/anglais"], "layout": "Bloc autonome ou sous-section des accessoires ; préserver le lien et l'ancre anipo."},
+    {"section": "Agenda", "source_route": "fr_others.html", "source_anchor": "ag", "content": ["communiquez-nous les événements de la guitare : dans la mesure du possible nous les afficherons ici"], "layout": "Aucun événement à venir identifié dans la source. Ne pas présenter les dates 2013–2018 comme des prochaines dates."},
+    {"section": "Archives", "source_route": "fr_others.html", "source_anchor": "ar", "content": ["Événements et hommages 2013–2018 conservés intégralement", "Lien vers fr_others_archives.html pour les archives antérieures"], "preserve_anchors": ["ar", "bru18", "bru17", "bru16", "bru16a", "roma16", "bru15", "bru14", "bar-cl13", "jfcmb13", "bru13"], "layout": "Articles ou panneaux dépliables par événement, ouverts automatiquement pour une ancre ciblée. Conserver également les hommages Quique Paredes et Bill Collings entre les événements 2018/2017, le bloc de mémoire de 2015 et l'hommage Paco entre 2014/2013 : ils n'ont pas tous un h2 ni une ancre propre."}
+  ],
+  "extraction_notes": [
+    "Dans fr_others.html, le contenu principal est le td width=50% contenant le premier h2 ; ses enfants directs suffisent pour découper les sections sans les menus latéraux.",
+    "Les fiches livres sont délimitées par les commentaires content puis picto/navigation ; les pictos mail portent des liens utiles même quand leur texte est vide.",
+    "La liste contient seulement deux livres : ne pas confondre le diapason suivant avec un troisième livre.",
+    "Conserver les formulations exactes disponibles ; les titres de sections d'interface peuvent organiser ces textes sans nouvelle prose marketing."
+  ]
+}

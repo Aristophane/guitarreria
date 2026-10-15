@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.openai/
+.DS_Store
+Thumbs.db

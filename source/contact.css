@@ -1,0 +1,71 @@
+/* Contact: direct channels first, then the place and appointment details. */
+.contact-route .page-title{margin-bottom:32px}
+.contact-route .page-title h1{font-size:clamp(54px,5.4vw,74px)}
+.contact-content{font:400 14px/1.8 var(--body);color:var(--muted);overflow-wrap:anywhere}
+.contact-content p{margin:0}
+.contact-content h2{font-weight:400;color:var(--ink)}
+.contact-content a{color:var(--ink);text-underline-offset:6px;text-decoration-thickness:1px}
+.contact-content a:hover{color:var(--accent)}
+.contact-content a:focus-visible{outline:1px solid var(--accent);outline-offset:7px}
+.contact-content strong{font-weight:500;color:var(--ink)}
+.contact-opening{display:flex;justify-content:space-between;align-items:baseline;gap:22px 60px;margin-bottom:26px}
+.contact-question{font:400 32px/1.15 var(--display);white-space:nowrap}
+.contact-opening .contact-lead{max-width:440px;font-size:13px}
+.contact-channels{display:grid;grid-template-columns:1.08fr 1fr;border-block:1px solid var(--line)}
+.contact-phone{padding:34px 52px 34px 0}
+.contact-email{padding:34px 0 34px 52px;border-left:1px solid var(--line)}
+.contact-content .contact-label{font:400 11px/1.6 var(--body);letter-spacing:.02em;color:var(--accent);margin-bottom:15px}
+.contact-channel-title{font:400 25px/1.2 var(--display);margin:0 0 13px}
+.contact-content .contact-number{display:flex;flex-wrap:wrap;align-items:baseline;gap:9px;font-size:11px}
+.contact-number a{font:400 clamp(34px,3.7vw,50px)/1.1 var(--display);letter-spacing:-.015em;text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:7px;white-space:nowrap}
+.contact-content .contact-whatsapp{font-size:11px;color:var(--accent);margin-top:13px}
+.contact-content .contact-phone-note{max-width:370px;margin-top:27px;font-size:13px;line-height:1.9}
+.contact-content .contact-email-address{font:400 clamp(25px,2.8vw,35px)/1.2 var(--display);margin-bottom:28px}
+.contact-email-address a{text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:5px}
+.contact-hours{max-width:425px;font-size:12px;line-height:1.85}
+.contact-hours p+p{margin-top:12px}
+.contact-hours em{font-style:normal}
+.contact-visit{display:grid;grid-template-columns:1.08fr 1fr;margin-top:48px;gap:52px}
+.contact-location-title{font:400 clamp(31px,3.4vw,43px)/1.1 var(--display);margin-bottom:23px}
+.contact-content .contact-location{font-size:17px;line-height:1.6;color:var(--ink);max-width:440px}
+.contact-content .contact-place-note{font-size:13px;max-width:420px;margin-top:18px}
+.contact-appointment{padding:28px 30px;background:var(--panel);border-top:1px solid var(--accent)}
+.contact-appointment-title{max-width:340px;font-size:17px;line-height:1.7}
+.contact-appointment-title strong{font-weight:400}
+.contact-content .contact-calendar{font-size:13px;line-height:1.9;margin-top:24px}
+.contact-calendar strong{display:block;font-size:11px;color:var(--accent);margin-bottom:12px}
+.contact-calendar em{display:block;font-style:normal}
+.contact-calendar br+br{display:none}
+.contact-identity-note{max-width:690px;font-size:11px;line-height:1.9;margin-block:32px 40px}
+.contact-identity-note br{display:none}
+.contact-social{display:flex;gap:35px 70px;border-top:1px solid var(--line);padding-top:25px}
+.contact-social-item>p:first-child{font-size:11px;margin-bottom:13px}
+.contact-social-item a{display:flex;align-items:center;gap:15px;font-size:12px;min-height:44px;text-decoration:none}
+.contact-social-item img{object-fit:contain;width:auto;max-height:25px;max-width:82px}
+.contact-social-item br{display:none}
+.contact-route .detail-actions{margin-top:30px;font-size:12px}
+.contact-route .detail-actions .text-link{font-size:12px}
+.contact-route .supplement{margin-top:30px}
+.contact-route .source-reference{margin-top:0}
+@media(max-width:1000px){
+ .contact-phone{padding-right:30px}.contact-email{padding-left:30px}
+ .contact-visit{gap:30px}.contact-opening{display:block}.contact-opening .contact-lead{margin-top:12px;max-width:none}
+ .contact-number a{font-size:40px}.contact-appointment{padding:25px}
+}
+@media(max-width:700px){
+ .contact-route .page-title{margin-bottom:28px}.contact-route .page-title h1{font-size:54px}
+ .contact-opening{margin-bottom:22px}.contact-question{font-size:30px;white-space:normal}
+ .contact-opening .contact-lead{font-size:12px;max-width:300px;line-height:1.8}
+ .contact-channels,.contact-visit{grid-template-columns:1fr}
+ .contact-phone{padding:26px 0}.contact-email{padding:26px 0;border-left:0;border-top:1px solid var(--line)}
+ .contact-content .contact-number{gap:8px}.contact-number a{font-size:39px}
+ .contact-content .contact-phone-note{margin-top:20px;max-width:320px}
+ .contact-content .contact-email-address{font-size:30px;margin-bottom:24px}
+ .contact-hours{font-size:12px;max-width:none}
+ .contact-visit{gap:28px;margin-top:33px}.contact-location-title{font-size:34px;margin-bottom:21px}
+ .contact-content .contact-location{font-size:17px}.contact-appointment{padding:24px}
+ .contact-identity-note{margin-block:25px 30px}.contact-social{gap:25px;flex-wrap:wrap}
+ .contact-social-item{flex:1 1 130px}.contact-social-item a{flex-wrap:wrap;gap:8px 12px}
+ .contact-route .detail-actions{margin-top:25px}.contact-route .text-link{line-height:1.8}
+}
+@media(max-width:360px){.contact-number a{font-size:35px}.contact-content .contact-email-address{font-size:27px}}
